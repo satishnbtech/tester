@@ -1,4 +1,4 @@
-Node {
+node {
     stage('SCM') {
         git 'https://github.com/satishnbtech/tester.git'
     }
