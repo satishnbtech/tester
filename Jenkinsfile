@@ -1,6 +1,6 @@
 Node {
     stage('SCM') {
-        git 'https://github.com/wakaleo/game-of-life.git'
+        git 'https://github.com/satishnbtech/tester.git'
     }
     stage('Build & Package'){
         sh label: '', script: 'mvn package'
