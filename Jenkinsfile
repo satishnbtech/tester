@@ -6,7 +6,7 @@ node {
         sh label: '', script: 'mvn package'
     }
     
-    stage(Results){
+    stage('Results'){
        archive 'gameoflife-web/target/gameoflife.war' 
        junit 'gameoflife-web/target/surefire-reports/*.xml'
     }
